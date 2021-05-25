@@ -1,0 +1,16 @@
+body{
+	background-color: #111;
+}
+video{
+	width: 100%;
+	height: 90vh;
+	margin: 2% auto;
+}
+.vid{
+	position: relative;
+}
+.go{
+	position: absolute;
+	top: 63%;
+	left: 61%;
+}

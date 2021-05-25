@@ -1,0 +1,73 @@
+body{
+    margin: 0px;
+    font-family: 'Libre Baskerville', serif;
+}
+.img-fluid{
+    width: 100%;
+}
+nav{
+
+    position: absolute;
+    margin: 4% 75%;
+    width: 20%;
+}
+.nav-link{
+    color: #ced4da;
+}
+a.active:visited{
+    color: #fff;
+}
+a.nav-link:hover{
+    color: #6c757d;
+}
+.logo{
+    margin-top: 1%;
+    margin-left: 2%;
+    position: absolute;
+    width: 15%; 
+}
+.heading{
+    position: absolute;
+    top: 40%;
+    color: #fff;
+    left: 10%;
+}
+h1{
+    text-align: center;
+    font-size: 10rem;
+    margin: auto;
+}
+.pic{
+    position: relative;
+}
+.l-floating-pic{
+    margin: 0 2% 0 0;
+    width: 20%;
+    height: 40vh;
+    float: left;
+    border: 1px solid #111;
+}
+.r-floating-pic{
+    margin: 0 0 0 2%;
+    width: 20%;
+    height: 40vh;
+    float: right;
+    border: 1px solid #111;
+}
+p{
+    font-size: 120%;
+}
+.para{
+    width: 80%;
+    margin: 3% auto;
+    text-align: justify;
+    color: #d90429;
+}
+.f-section{
+    text-align: center;
+    background-color: #111;
+}
+.f-row p{
+  color: #fff;
+  margin-bottom: 0px;
+}

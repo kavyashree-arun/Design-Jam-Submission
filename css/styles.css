@@ -1,0 +1,108 @@
+body{
+	margin: 0px;
+	font-family: 'Libre Baskerville', serif;
+}
+.img-fluid{
+	width: 100%;
+}
+nav{
+
+	position: absolute;
+	margin: 4% 75%;
+	width: 20%;
+}
+sec-link{
+	color: #fff;
+	background-color: #fff;
+}
+.nav-link{
+	color: #ced4da;
+}
+a.active:visited{
+	color: #fff;
+}
+a.nav-link:hover{
+	color: #6c757d;
+}
+.logo{
+	margin-top: 1%;
+	margin-left: 2%;
+	position: absolute;
+	width: 15%; 
+}
+.w-sec-row{
+	width: 70%;
+	margin: auto;
+	height: 50vh;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-color: #fefae0;
+	position: relative;
+}
+.g-sec-row{
+	width: 70%;
+	height: 50vh;
+	margin: auto;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	background-color: #121212;
+	position: relative;
+}
+.w-content{
+	float: right;
+	margin: auto;
+	position: absolute;
+	right: 2%;
+}
+.g-content{
+	float: left;
+	margin: auto;
+	position: absolute;
+	left: 2%;
+}
+.w-button{
+	position: absolute;
+	right: 15%;
+	bottom: 40%;
+}
+.g-button{
+	position: absolute;
+	left: 20%;
+	bottom: 40%;
+}
+.w-pic{
+	width: 30%;
+	height: 40vh;
+	padding: 0px;
+	position: absolute;
+	bottom: 10%;
+	border: 20px solid #121212;
+}
+.g-pic{
+	width: 30%;
+	height: 40vh;
+	position: absolute;
+	padding: 0px;
+	right: 2%;
+	bottom: 10%;
+	border: 20px solid #fefae0;
+}
+.w-section{
+	background-color: #fefae0;
+	color: #121212;
+}
+.g-section{
+	background-color: #121212;
+	color: #fefae0;
+}
+h1{
+  font-weight: bold;
+}
+.f-section{
+	text-align: center;
+	background-color: #111;
+}
+.f-row p{
+	color: #fff;
+	margin-bottom: 0;
+}
