@@ -18,7 +18,10 @@ body{
   top: 30%;
 } */
 .logo-text{
-  padding-left: 2%;
+    margin-left: 2%;
+    font-family: 'Cinzel Decorative';
+    font-weight: 900;
+    font-size: 2rem;
 }
 h1{
   color: #fff;

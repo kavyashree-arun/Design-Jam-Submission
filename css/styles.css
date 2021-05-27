@@ -14,7 +14,7 @@ body{
 }
 
 /*START NAVIGATION*/
-nav{
+/*nav{
 
 	position: absolute;
 	margin: 4% 75%;
@@ -22,17 +22,35 @@ nav{
 }
 .img-fluid{
 	width: 100%;
-}
+}*/
 
 /*START NAVIGATION*/
+.logo-text{
+    margin-left: 2%;
+    font-family: 'Cinzel Decorative';
+    font-weight: 900;
+    font-size: 2rem;
+}
+.navbar-collapse{
+  padding-right: 2%;
+  padding-left: 2%;
+}
+
+.navbar-toggler{
+  margin-right: 2%;
+}
 .nav-link{
-	color: #ced4da;
+	color: #ced4da !important;
 }
 a.active:visited{
-	color: #fff;
+	color: #fff !important;
 }
 a.nav-link:hover{
-	color: #6c757d;
+	color: #6c757d !important;
+}
+
+.bg-dark{
+  background-color: black !important;
 }
 /*END NAVIGATION*/
 

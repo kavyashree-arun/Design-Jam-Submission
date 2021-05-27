@@ -71,18 +71,12 @@
     height: 90vh;
 }
 
-.navbar-toggler{
-    background-color: white;
-}
 
 .bg-image{
     margin: 0px;
     padding: 0px;
 }
 
-.nav-link{
-    color: white !important;
-}
 
 @media only screen and (max-width: 768px) { 
     .left-align-home{
