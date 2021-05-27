@@ -1,16 +1,18 @@
 body{ 
-  background-image: url('stadium.jpg');
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100% 150vh; 
-  height: 400px;
+  
   margin: 0px;
   font-family: 'Libre Baskerville', serif;
   overflow: hidden;
 }
 
 /*START HEADER*/
-
+.main{
+  background-image: url('stadium.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%; 
+  height: 100vh;
+}
 .logo-text{
   padding-left: 2%;
 }
@@ -32,13 +34,12 @@ img {
   vertical-align: middle;
 }
 
-.navbar-toggler{
-  margin-right: 2%;
-}
-
 /*END HEADER*/
 .mySlides img{
-  border: 15px solid #111;
+  border: 15px solid #000;
+  width: 65%;
+  position: relative;
+  right: 10%;
 }
 
 /* Position the image container (needed to position the left and right arrows) */
@@ -134,7 +135,9 @@ img {
   opacity: 1;
 }
 
-
+.bg-dark{
+  background-color: black !important;
+}
 /*START FOOTER*/
 .f-section{
   margin-top: 4%;
@@ -146,3 +149,19 @@ img {
   margin-bottom: 0px;
 }
 /*END FOOTER*/
+
+
+@media only screen and (max-width: 576px) { 
+ .gutter{
+   display: none;
+ }
+ .kavya{
+   position: relative;
+   top: 200px;
+ }
+ .mySlides img{
+    width: 90%;
+    position: relative;
+    right: 20%;
+ }
+}

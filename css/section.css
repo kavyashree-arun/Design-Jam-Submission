@@ -17,12 +17,6 @@ body{
     width: 15%; 
 }
 
-/* .heading{
-    position: absolute;
-    top: 40%;
-    color: #fff;
-    left: 10%;
-} */
 
 h1{
     text-align: center;
@@ -155,7 +149,12 @@ p{
       height: 30vh;
       float: right;
       align-items: center;
-
+  }
+  .l-floating-pic{
+    display: none;
+  }
+  .r-floating-pic{
+    display: none;
   }
   }
   
