@@ -13,10 +13,7 @@ body{
   background-repeat: no-repeat;
   background-size:  1600px 110vh;
 }
-/* .heading-content{
-  position: absolute;
-  top: 30%;
-} */
+
 .logo-text{
     margin-left: 2%;
     font-family: 'Cinzel Decorative';
@@ -75,15 +72,7 @@ span{
   background-color: white;
 }
 
-/* .w-sec-row{
-  width: 70%;
-  margin: auto;
-  height: 50vh;
-  padding-top: 100px;
-  padding-bottom: 100px;
-  background-color: #fefae0;
-  position: relative;
-} */
+
 
 .w-content-bold{
   font-weight: bolder;
