@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <script>
+		function showdiv()
+		{
+			document.getElementById("divexample").style.visibility="visible";
+		}
+		setTimeout("showdiv()",8000);
+
+		window.onload=function(){
+			document.getElementById("cheers").play();
+		}
+	</script>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="css\index.css">
+
+    <!-- Icon -->
+    <link rel="icon" href="images\icon.ico">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+
+    <title>MS Dhoni-Biography</title>
+    
+  </head>
+<body>
+	
+	<div class=".vid">
+	<video autoplay muted>
+		<source src="train.mp4" type="video/mp4">
+	</video>
+</div>
+
+	<div class="go" id="divexample" style="visibility: hidden">
+		<a href="home.html"><button type="button" class="btn btn-lg btn-danger">Let's GO!</button></a>
+	</div>
+	<!-- <embed src="cheers.mp3" auto></embed> -->
+	<audio id="cheers" src="cheers.mp3" loop="loop" />
+</audio>
+</body>
+</html>

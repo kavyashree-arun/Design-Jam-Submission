@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <!-- Required meta tags -->
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- Bootstrap CSS -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="css\gallery.css">
+
+
+     <!-- Bootstrap Scripts -->
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+    <!-- Icon -->
+
+    <link rel="icon" href="images\icon.ico">
+
+
+    <!-- Fonts -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+    <!-- title -->
+    <title>MS Dhoni-Biography</title>
+
+  </head>
+
+  <body>
+
+    <!-- Navigation bar -->
+  <div class="main">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand logo-text" href="home.html">DHONI</a>
+
+          <!-- navigation button -->
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="quotes.html">Quotes</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- End Navigation Bar -->
+
+
+    <!-- Main picture -->
+
+    <div class="container ">
+          <div class="mySlides">
+            <img src="images\century.jpeg" style="width:50%">
+          </div>
+
+          <div class="mySlides">
+            <img src="images\champagne.jpeg" style="width:50%">
+          </div>
+
+          <div class="mySlides">
+            <img src="images\trophy.jpeg" style="width:50%">
+          </div>
+            
+          <div class="mySlides">
+            <img src="images\bike.jpeg" style="width:50%">
+          </div>
+
+          <div class="mySlides">
+            <img src="images\wcshot.jpeg" style="width:50%">
+          </div>
+            
+          <div class="mySlides">
+            <img src="images\wc.jpg" style="width:50%">
+          </div>
+
+          <div class="mySlides">
+            <img src="images\worldcup.jpeg" style="width:50%">
+          </div>
+
+          <div class="mySlides">
+            <img src="images\run.jpeg" style="width:50%">
+          </div>
+
+          <div class="mySlides">
+            <img src="images\cskwin.jpeg" style="width:50%">
+          </div>
+
+          <div class="mySlides">
+            <img src="images\runout.jpeg" style="width:50%">
+          </div>
+      
+          <a class="prev" onclick="plusSlides(-1)">❮</a>
+          <a class="next" onclick="plusSlides(1)">❯</a>
+          
+
+          <!-- Text box -->
+
+          <div class="caption-container">
+            <p>Wall of Memories</p>
+          </div>
+
+
+     <!-- Photo slider -->
+
+    <div class="row gutter ">
+        <div class="column">
+          <img class="demo cursor" src="images\century.jpeg" style="width:100%" onclick="currentSlide(1)" alt="The Woods">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="images\champagne.jpeg" style="width:100%" onclick="currentSlide(2)" alt="Cinque Terre">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="images\trophy.jpeg" style="width:100%" onclick="currentSlide(3)" alt="Mountains and fjords">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="images\bike.jpeg" style="width:100%" onclick="currentSlide(4)" alt="Northern Lights">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="images\wcshot.jpeg" style="width:100%" onclick="currentSlide(5)" alt="Nature and sunrise">
+        </div>    
+        <div class="column">
+          <img class="demo cursor" src="images\wc.jpg" style="width:100%" onclick="currentSlide(6)" alt="Snowy Mountains">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="images\worldcup.jpeg" style="width:100%" onclick="currentSlide(7)" alt="Snowy Mountains">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="images\run.jpeg" style="width:100%" onclick="currentSlide(8)" alt="Snowy Mountains">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="images\cskwin.jpeg" style="width:100%" onclick="currentSlide(9)" alt="Snowy Mountains">
+        </div>
+        <div class="column">
+          <img class="demo cursor" src="images\runout.jpeg" style="width:100%" onclick="currentSlide(10)" alt="Snowy Mountains">
+        </div>
+    </div>
+    </div>
+  </div>
+  <!-- Footer -->
+  <section class="f-section">
+    <footer class="f-row">
+      <div>
+        <p>© Copyright 2021 Kavyashree</p>
+      </div>
+    </footer>
+  </section>
+
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+</body>
+</html>

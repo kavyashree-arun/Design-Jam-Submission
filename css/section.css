@@ -1,0 +1,161 @@
+body{
+    margin: 0px;
+    font-family: 'Libre Baskerville', serif;
+}
+
+
+/*START HEADER*/
+
+.img-fluid{
+    width: auto;
+}
+
+.logo{
+    margin-top: 1%;
+    margin-left: 2%;
+    position: absolute;
+    width: 15%; 
+}
+
+/* .heading{
+    position: absolute;
+    top: 40%;
+    color: #fff;
+    left: 10%;
+} */
+
+h1{
+    text-align: center;
+    font-size: 10rem;
+    margin: auto;
+}
+
+/*END HEADER*/
+
+
+
+/*START NAVIGATION*/
+
+nav{
+
+    position: absolute;
+    margin: 4% 75%;
+    width: 20%;
+}
+
+.nav-link{
+    color: #ced4da;
+}
+
+a.active:visited{
+    color: #fff;
+}
+
+a.nav-link:hover{
+    color: #fff;
+}
+
+/*END NAVIGATION*/
+
+
+
+/*START PARAGRAPH*/
+
+.l-floating-pic{
+    margin: 0px 20px 20px 0px ;
+    height: 40vh;
+    float: left;
+    filter: drop-shadow(5px 6px 5px #505050);
+}
+.r-floating-pic{
+    margin: 0px 0px 20px 20px;
+    height: 40vh;
+    float: right;
+    /* border: 1px solid #111; */
+    filter: drop-shadow(5px 6px 5px #505050);
+}
+p{
+    font-size: 120%;
+}
+.para{
+    width: 80%;
+    margin: 3% auto;
+    text-align: justify;
+    color: #101010;
+}
+
+/*END PARAGRAPH*/
+
+
+
+/*START FOOTER*/
+
+.f-section{
+    text-align: center;
+    background-color: #111;
+}
+.f-row p{
+  color: #fff;
+  margin-bottom: 0px;
+}
+
+/*END FOOTER*/
+
+
+
+
+
+
+.heading{
+    height: 100vh;
+    background-image: url("sec_pic.jpg");
+    background-repeat: no-repeat;
+    background-size: 1600px 100vh;
+  }
+
+  h1{
+    color: #fff;
+    font-size: 15vh;
+    text-align: center;
+  }
+
+  .headingsize h1{
+    padding-top: 25%;
+  }
+
+  @media only screen and (max-width: 800px) { 
+
+    h1{
+      font-size: 7vh !important;
+    }
+    .heading{
+      height: 40vh;
+      background-size: 100% ;
+    }
+    
+  }
+  @media only screen and (max-width: 576px) { 
+
+    h1{
+      font-size: 5vh !important;
+    }
+    .heading{
+      height: 40vh;
+      background-size: 100% ;
+    }
+    .l-floating-pic{
+      margin: 0px 20px 20px 0px ;
+      height: 30vh;
+      float: left;
+      align-items: center
+;
+  }
+  .r-floating-pic{
+      margin: 0px 0px 20px 20px;
+      height: 30vh;
+      float: right;
+      align-items: center;
+
+  }
+  }
+  

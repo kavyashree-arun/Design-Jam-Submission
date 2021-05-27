@@ -1,0 +1,148 @@
+body{ 
+  background-image: url('stadium.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 150vh; 
+  height: 400px;
+  margin: 0px;
+  font-family: 'Libre Baskerville', serif;
+  overflow: hidden;
+}
+
+/*START HEADER*/
+
+.logo-text{
+  padding-left: 2%;
+}
+
+.active{
+  color: #fff;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.navbar-collapse{
+  padding-right: 2%;
+  padding-left: 2%;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.navbar-toggler{
+  margin-right: 2%;
+}
+
+/*END HEADER*/
+.mySlides img{
+  border: 15px solid #111;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  font-weight: bold;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+}
+
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+  position: relative;
+  padding-right: 0px;
+  left: 25%;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  /* margin-right: 20%; */
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #ba181b;
+  /* margin-right: 30%; */
+  color: white;
+  margin-top: 20px;
+}
+
+.caption-container p {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 8px 0px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 10%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.gutter{
+  --bs-gutter-x: 0;
+}
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+
+/*START FOOTER*/
+.f-section{
+  margin-top: 4%;
+  text-align: center;
+  background-color: #111;
+}
+.f-row p{
+  color: #fff;
+  margin-bottom: 0px;
+}
+/*END FOOTER*/

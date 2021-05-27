@@ -1,0 +1,167 @@
+body{
+  margin: 0px;
+  font-family: 'Libre Baskerville', serif;
+}
+
+
+
+/*START HEADER*/
+
+.heading{
+  height: 100vh;
+  background-image: url("inspiration.jpg");
+  background-repeat: no-repeat;
+  background-size:  1600px 110vh;
+}
+/* .heading-content{
+  position: absolute;
+  top: 30%;
+} */
+.logo-text{
+  padding-left: 2%;
+}
+h1{
+  color: #fff;
+  font-size: 15vh;
+  text-align: center;
+}
+
+.headingsize h1{
+  padding-top: 25%;
+}
+/*END HEADER*/
+
+
+
+/*START NAVIGATION*/
+
+.navbar-collapse{
+  padding-right: 2%;
+  padding-left: 2%;
+}
+
+.navbar-toggler{
+  margin-right: 2%;
+}
+/*END NAVIGATION*/
+
+
+
+/*START WHITE AND GREY SECTIONS*/
+
+span{
+  color: #d90429;
+  font-size: 150%;
+  font-weight: bold;
+}
+
+/*END WHITE AND GREY SECTIONS*/
+
+
+
+/*START WHITE SECTION*/
+.w-section{
+  background-color: #fefae0;
+  color: #121212;
+}
+.w-sec-row{
+  margin: auto;
+  height: 50vh;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #fefae0;
+}
+
+/* .w-sec-row{
+  width: 70%;
+  margin: auto;
+  height: 50vh;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #fefae0;
+  position: relative;
+} */
+
+.w-content-bold{
+  font-weight: bolder;
+  text-align: center;
+}
+
+.w-content{
+  width: 50%;
+  font-weight: bold;
+  float: right;
+  margin: auto;
+  position: absolute;
+  right: 2%;
+  top: 35%;
+  text-align: center;
+} 
+/*END WHITE SECTION*/
+
+
+
+/*START GREY SECTION*/
+
+.g-section{
+  background-color: #121212;
+  color: #fefae0;
+}
+.g-sec-row{
+  height: 50vh;
+  margin: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #121212;
+  position: relative;
+}
+
+
+/*END GREY SECTION*/
+
+
+
+/*START FOOTER*/
+
+.f-section{
+  text-align: center;
+  background-color: #111;
+}
+.f-row p{
+  color: #fff;
+  margin-bottom: 0px;
+}
+
+/*END FOOTER*/
+
+.bg-dark{
+  background-color: #212529 !important;
+}
+.paddingfooter p{
+  padding: 20px 0 20px 0;
+}
+@media only screen and (max-width: 576px) { 
+  .w-content-bold{
+    font-size: 18px ;
+  }
+  .w-sec-row{
+    height: 40vh;
+  }  
+  .g-sec-row{
+    height: 40vh;
+  }  
+  h1{
+    font-size: 5vh !important;
+  }
+  .heading{
+    height: 40vh;
+    background-size: 100%;
+  }
+}
+
+
+
+
+
+
+
